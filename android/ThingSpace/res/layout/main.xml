@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView android:id="@+id/chantext" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:text="Channel Number"/>
+<EditText
+        android:id="@+id/channel"
+        android:inputType="number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+<Button android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Channel Data"/>
+<TextView android:id="@+id/response" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>
